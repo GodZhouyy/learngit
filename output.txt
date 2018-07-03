@@ -1,0 +1,857 @@
+2018-07-03 10:05:40 [org.apache.coyote.http11.Http11Protocol]-[INFO] Initializing Coyote HTTP/1.1 on port 9090
+2018-07-03 10:05:40 [org.apache.catalina.startup.Catalina]-[INFO] Initialization processed in 837 ms
+2018-07-03 10:05:40 [org.apache.catalina.startup.Catalina]-[INFO] Initialization processed in 837 ms
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardService]-[INFO] Starting service Catalina
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardService]-[INFO] Starting service Catalina
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardEngine]-[INFO] Starting Servlet Engine: Apache Tomcat/5.0.18
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardEngine]-[INFO] Starting Servlet Engine: Apache Tomcat/5.0.18
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardHost]-[INFO] XML validation disabled
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardHost]-[INFO] XML validation disabled
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardHost]-[INFO] Create Host deployer for direct deployment ( non-jmx ) 
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardHost]-[INFO] Create Host deployer for direct deployment ( non-jmx ) 
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Processing Context configuration file URL file:E:\tomcat\Tomcat 5.0-青海\conf\Catalina\localhost\sxys.xml
+2018-07-03 10:05:40 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Processing Context configuration file URL file:E:\tomcat\Tomcat 5.0-青海\conf\Catalina\localhost\sxys.xml
+2018-7-3 10:05:41 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(E:\workspace\SXysjh19\WebContent\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+2018-07-03 10:05:42 [com.bytter.audit.iface.dumblyThread.basethread.YqBankServletListener]-[INFO] 监听器初始化开始......
+2018-07-03 10:05:42 [com.bytter.audit.iface.dumblyThread.basethread.YqBankServletListener]-[INFO] 监听器初始化完成......
+2018-07-03 10:05:42 [org.springframework.orm.hibernate3.support.OpenSessionInViewFilter]-[INFO] Initializing filter 'hibernateFilter'
+2018-07-03 10:05:42 [org.springframework.orm.hibernate3.support.OpenSessionInViewFilter]-[INFO] Filter 'hibernateFilter' configured successfully
+2018-07-03 10:05:42 [org.apache.axis2.deployment.WarBasedAxisConfigurator]-[INFO] Could not find axis2.xml, loading default org/apache/axis2/deployment/axis2_default.xml from classpath
+2018-07-03 10:05:42 [org.apache.axis2.deployment.DeploymentEngine]-[INFO] No modules directory was found under E:\workspace\SXysjh19\WebContent\WEB-INF.
+2018-07-03 10:05:42 [org.apache.axis2.deployment.ModuleDeployer]-[INFO] Deploying module: metadataExchange-1.4 - file:/E:/workspace/SXysjh19/WebContent/WEB-INF/lib/mex-1.4.jar
+2018-07-03 10:05:43 [org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier]-[WARN] Axis2 Can't find Spring's ApplicationContext
+2018-07-03 10:05:43 [org.apache.axis2.deployment.util.Utils]-[WARN] ServiceObjectSupplier implmentation Object could not be found
+org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.ServiceGroupBuilder.populateServiceGroup(ServiceGroupBuilder.java:106)
+	at org.apache.axis2.deployment.repository.util.ArchiveReader.buildServiceGroup(ArchiveReader.java:110)
+	at org.apache.axis2.deployment.repository.util.ArchiveReader.processServiceGroup(ArchiveReader.java:179)
+	at org.apache.axis2.deployment.ServiceDeployer.deploy(ServiceDeployer.java:81)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:597)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:330)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:227)
+	at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:131)
+	at org.apache.axis2.deployment.WarBasedAxisConfigurator.loadServices(WarBasedAxisConfigurator.java:284)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:82)
+	at org.apache.axis2.transport.http.AxisServlet.initConfigContext(AxisServlet.java:511)
+	at org.apache.axis2.transport.http.AxisServlet.init(AxisServlet.java:431)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1044)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:887)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3960)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4283)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:850)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:638)
+	at org.apache.catalina.core.StandardHostDeployer.addChild(StandardHostDeployer.java:840)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.commons.beanutils.MethodUtils.invokeMethod(MethodUtils.java:252)
+	at org.apache.commons.digester.SetNextRule.end(SetNextRule.java:256)
+	at org.apache.commons.digester.Rule.end(Rule.java:276)
+	at org.apache.commons.digester.Digester.endElement(Digester.java:1058)
+	at org.apache.catalina.util.CatalinaDigester.endElement(CatalinaDigester.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:601)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2939)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:647)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1567)
+	at org.apache.catalina.core.StandardHostDeployer.install(StandardHostDeployer.java:520)
+	at org.apache.catalina.core.StandardHost.install(StandardHost.java:906)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:527)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1008)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:394)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1133)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:832)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:518)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:2345)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:598)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:297)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:398)
+Caused by: org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:431)
+	at org.apache.axis2.deployment.ServiceGroupBuilder.populateServiceGroup(ServiceGroupBuilder.java:101)
+	... 61 more
+Caused by: org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:394)
+	... 62 more
+Caused by: org.apache.axis2.deployment.DeploymentException: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.util.Utils.fillAxisService(Utils.java:499)
+	at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:386)
+	... 62 more
+2018-07-03 10:05:43 [org.apache.axis2.deployment.ServiceDeployer]-[ERROR] The QH4AOrgaService service, which is not valid, caused The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.ServiceGroupBuilder.populateServiceGroup(ServiceGroupBuilder.java:106)
+	at org.apache.axis2.deployment.repository.util.ArchiveReader.buildServiceGroup(ArchiveReader.java:110)
+	at org.apache.axis2.deployment.repository.util.ArchiveReader.processServiceGroup(ArchiveReader.java:179)
+	at org.apache.axis2.deployment.ServiceDeployer.deploy(ServiceDeployer.java:81)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:597)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:330)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:227)
+	at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:131)
+	at org.apache.axis2.deployment.WarBasedAxisConfigurator.loadServices(WarBasedAxisConfigurator.java:284)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:82)
+	at org.apache.axis2.transport.http.AxisServlet.initConfigContext(AxisServlet.java:511)
+	at org.apache.axis2.transport.http.AxisServlet.init(AxisServlet.java:431)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1044)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:887)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3960)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4283)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:850)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:638)
+	at org.apache.catalina.core.StandardHostDeployer.addChild(StandardHostDeployer.java:840)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.commons.beanutils.MethodUtils.invokeMethod(MethodUtils.java:252)
+	at org.apache.commons.digester.SetNextRule.end(SetNextRule.java:256)
+	at org.apache.commons.digester.Rule.end(Rule.java:276)
+	at org.apache.commons.digester.Digester.endElement(Digester.java:1058)
+	at org.apache.catalina.util.CatalinaDigester.endElement(CatalinaDigester.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:601)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2939)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:647)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1567)
+	at org.apache.catalina.core.StandardHostDeployer.install(StandardHostDeployer.java:520)
+	at org.apache.catalina.core.StandardHost.install(StandardHost.java:906)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:527)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1008)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:394)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1133)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:832)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:518)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:2345)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:598)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:297)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:398)
+Caused by: org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:431)
+	at org.apache.axis2.deployment.ServiceGroupBuilder.populateServiceGroup(ServiceGroupBuilder.java:101)
+	... 61 more
+Caused by: org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:394)
+	... 62 more
+Caused by: org.apache.axis2.deployment.DeploymentException: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+	at org.apache.axis2.deployment.util.Utils.fillAxisService(Utils.java:499)
+	at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:386)
+	... 62 more
+2018-07-03 10:05:43 [org.apache.axis2.deployment.DeploymentEngine]-[INFO] org.apache.axis2.deployment.DeploymentException: The following error occurred during schema generation: ServiceClass or ServiceObjectSupplier implmentation Object could not be found
+2018-07-03 10:05:43 [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_attribute.xml]
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit.xml]
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit-base.xml]
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/bank_check.xml]
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_interface.xml]
+2018-07-03 10:05:43 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_month_data_approve.xml]
+2018-07-03 10:05:44 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_monthAudit.xml]
+2018-07-03 10:05:44 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_hall.xml]
+2018-07-03 10:05:44 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit-report.xml]
+2018-07-03 10:05:44 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_control.xml]
+2018-07-03 10:05:44 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_fundTail.xml]
+2018-07-03 10:05:44 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_electricityChannel.xml]
+2018-07-03 10:05:45 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_proconfig.xml]
+2018-07-03 10:05:45 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit_erpImport.xml]
+2018-07-03 10:05:45 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/quartz/springContext-task.xml]
+2018-07-03 10:05:45 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/quartz/springContext-quartz.xml]
+2018-07-03 10:05:45 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/audit-baseData.xml]
+2018-07-03 10:05:45 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from ServletContext resource [/WEB-INF/audit/SX4Aservices.xml]
+2018-07-03 10:05:45 [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Bean factory for application context [Root WebApplicationContext]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [attributeDAO,attributeService,HolidayDAO,HolidayService,CountyAuditDao,CountyAuditService,DBWAuditDAO,DBWAuditService,ZBOfficeAuditDAO,ZBOfficeAuditService,DBYAuditDAO,DBYAuditService,BankAffirmDao,BankAffirmService,CountyDiffDao,CountyDiffService,CountyAuditReportDAO,CountyAuditReportService,DiffApproveDAO,DiffApproveService,CityAuditDao,CityAuditService,cityAuditReportedDao,cityAuditReportedService,bankAccDao,bankAccService,iadminDao,adminService,bankHebaoDao,bankHebaoSerivce,AuditOfficeInfoService,AuditOfficePosService,AuditEmployeeService,auditRuleConfigDao_oracle,auditRuleConfigService,auditBtCorpOrOfficeInfoAll_Oracle,auditBtCorpOrOfficeInfoAllService,differencesDao,DifferencesService,smsNotificationDao,SmsNotificationService,checkService,isBtAuditFtpDao,BtAuditFtpService,dumblyThread,btAuditReviewDao,BtAuditReviewService,monthDataApproveDao,monthDataApproveService,monthAuditDao,monthAuditService,hallDailyDao,hallDailyService,bankDao,bankDaiService,bulletinDao,bulletinService,bankCollectionDao,CityAuditCollectionService,handinDao,handinService,goodsDao,goodsService,empGoodsDao,empGoodsService,hallConnectGoodsDao,hallConnectGoodsService,goodsRuleDao,goodsRuleService,entityAuditDao,entityAuditService,entityDifferenceDao,entityDifferenceService,countyAuditInKandDao,countyAuditInKandService,entityRefundDao,entityRefundService,entityMaintenanceDao,EntityMaintenanceService,dayReportDao,dayReportService,hallauditorListDAO,areaTailDAO,cityAuditorDAO,hallCoinDao,hallauditDAO,bankdsRecvDao,auditCompDao,hallAuditCompService,bankdsRecvService,hallauditService,btAuditftpservice,hallCoinService,cityAuditorService,areaTailService,hallAuditorListService,itemDao,itemService,fundTailDao,fundTailService,electricityChannelDao,electricityChannelService,electricityInternetDao,electricityInternetService,electricityTelNoteCaseDao,electricityTelNoteCaseService,electricityDifferenceDao,electricityDifferenceService,btAuditBankAccInOutCheckDao,btAuditBankAccInOutCheckService,btAuditAllDiffProcessInfoDao,btAuditAllDiffProcessInfoService,proConfigDao,proConfigService,waitManageDao,waitManageService,erpImportDao,erpImportService,quartzTaskHandle,sampleJobDetail,sampleCronTrigger,quartzScheduler,baseDataDao,baseDataService,appResourceService,dataSource,jdbcTemplate,hibernateProperties_Oracle,sessionFactory,transactionManager,baseDao,generalDAO,baseTxProxy,bizLogService]; root of BeanFactory hierarchy
+2018-07-03 10:05:45 [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] 134 beans defined in application context [Root WebApplicationContext]
+2018-07-03 10:05:45 [org.springframework.core.CollectionFactory]-[INFO] Commons Collections 3.x available
+2018-07-03 10:05:45 [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4c18fa85]
+2018-07-03 10:05:45 [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@531a700a]
+2018-07-03 10:05:45 [org.springframework.ui.context.support.UiApplicationContextUtils]-[INFO] No ThemeSource found for [Root WebApplicationContext]: using ResourceBundleThemeSource
+2018-07-03 10:05:45 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [attributeDAO,attributeService,HolidayDAO,HolidayService,CountyAuditDao,CountyAuditService,DBWAuditDAO,DBWAuditService,ZBOfficeAuditDAO,ZBOfficeAuditService,DBYAuditDAO,DBYAuditService,BankAffirmDao,BankAffirmService,CountyDiffDao,CountyDiffService,CountyAuditReportDAO,CountyAuditReportService,DiffApproveDAO,DiffApproveService,CityAuditDao,CityAuditService,cityAuditReportedDao,cityAuditReportedService,bankAccDao,bankAccService,iadminDao,adminService,bankHebaoDao,bankHebaoSerivce,AuditOfficeInfoService,AuditOfficePosService,AuditEmployeeService,auditRuleConfigDao_oracle,auditRuleConfigService,auditBtCorpOrOfficeInfoAll_Oracle,auditBtCorpOrOfficeInfoAllService,differencesDao,DifferencesService,smsNotificationDao,SmsNotificationService,checkService,isBtAuditFtpDao,BtAuditFtpService,dumblyThread,btAuditReviewDao,BtAuditReviewService,monthDataApproveDao,monthDataApproveService,monthAuditDao,monthAuditService,hallDailyDao,hallDailyService,bankDao,bankDaiService,bulletinDao,bulletinService,bankCollectionDao,CityAuditCollectionService,handinDao,handinService,goodsDao,goodsService,empGoodsDao,empGoodsService,hallConnectGoodsDao,hallConnectGoodsService,goodsRuleDao,goodsRuleService,entityAuditDao,entityAuditService,entityDifferenceDao,entityDifferenceService,countyAuditInKandDao,countyAuditInKandService,entityRefundDao,entityRefundService,entityMaintenanceDao,EntityMaintenanceService,dayReportDao,dayReportService,hallauditorListDAO,areaTailDAO,cityAuditorDAO,hallCoinDao,hallauditDAO,bankdsRecvDao,auditCompDao,hallAuditCompService,bankdsRecvService,hallauditService,btAuditftpservice,hallCoinService,cityAuditorService,areaTailService,hallAuditorListService,itemDao,itemService,fundTailDao,fundTailService,electricityChannelDao,electricityChannelService,electricityInternetDao,electricityInternetService,electricityTelNoteCaseDao,electricityTelNoteCaseService,electricityDifferenceDao,electricityDifferenceService,btAuditBankAccInOutCheckDao,btAuditBankAccInOutCheckService,btAuditAllDiffProcessInfoDao,btAuditAllDiffProcessInfoService,proConfigDao,proConfigService,waitManageDao,waitManageService,erpImportDao,erpImportService,quartzTaskHandle,sampleJobDetail,sampleCronTrigger,quartzScheduler,baseDataDao,baseDataService,appResourceService,dataSource,jdbcTemplate,hibernateProperties_Oracle,sessionFactory,transactionManager,baseDao,generalDAO,baseTxProxy,bizLogService]; root of BeanFactory hierarchy]
+2018-07-03 10:05:45 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'attributeDAO'
+2018-07-03 10:05:45 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'sessionFactory'
+2018-07-03 10:05:45 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'dataSource'
+2018-07-03 10:05:45 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hibernateProperties_Oracle'
+2018-07-03 10:05:45 [org.hibernate.cfg.Environment]-[INFO] Hibernate 3.2 cr1
+2018-07-03 10:05:45 [org.hibernate.cfg.Environment]-[INFO] hibernate.properties not found
+2018-07-03 10:05:45 [org.hibernate.cfg.Environment]-[INFO] Bytecode provider name : cglib
+2018-07-03 10:05:45 [org.hibernate.cfg.Environment]-[INFO] using JDK 1.4 java.sql.Timestamp handling
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\framework\businesslog\vo\BytterLog.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.framework.businesslog.vo.BytterLog -> LOG
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BisAccHisDtlAudit.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BisAccHisDtlAudit -> BIS_ACC_HIS_DTL
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BisAccType.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BisAccType -> BIS_ACC_TYPE
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtApproveBusiness.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtApproveBusiness -> BT_APPROVE_BUSINESS
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtApproveFlowDtl.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtApproveFlowDtl -> BT_APPROVE_FLOW_DTL
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtArea.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtArea -> BT_AREA
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditActDailyData.hbm.xml
+2018-07-03 10:05:45 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditActDailyData -> BT_AUDIT_ACT_DAILY_DATA
+2018-07-03 10:05:45 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditActDailyDataList.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditActDailyDataList -> BT_AUDIT_ACT_DAILY_DATA_LIST
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditActEmployeeDailyData.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditActEmployeeDailyData -> BT_AUDIT_ACT_EMPLOYEE_DAILY_DATA
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditActItem.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditActItem -> BT_AUDIT_ACT_ITEM
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditActOfficeDailyData.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditActOfficeDailyData -> BT_AUDIT_ACT_OFFICE_DAILY_DATA
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditAllDiffProcessInfo.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditAllDiffProcessInfo -> BT_AUDIT_AllDIFFPROCESS_INFO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditAssType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditAssType -> BT_AUDIT_ASS_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditAutomaticLog.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditAutomaticLog -> BT_AUDIT_AUTOMATIC_LOG
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankAccInOutCheck.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankAccInOutCheck -> BT_AUDIT_BANKACCIN_OUT_CHECK
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankBusiDefine.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankBusiDefine -> BT_AUDIT_BANK_BUSI_DEFINE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankDs.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankDs -> BT_AUDIT_BANK_DS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankDsDifinfos.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankDsDifinfos -> BT_AUDIT_BANK_DS_DIFINFOS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankDsDiftols.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankDsDiftols -> BT_AUDIT_BANK_DS_DIFTOLS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankDsInfo.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankDsInfo -> BT_AUDIT_BANK_DS_INFO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankHebao.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankHebao -> BT_AUDIT_BANK_HEBAO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankHebaoSum.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankHebaoSum -> BT_AUDIT_BANK_HEBAO_SUM
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankNet.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankNet -> BT_AUDIT_BANK_NET
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankPay.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankPay -> BT_AUDIT_BANK_PAY
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankPos.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankPos -> BT_AUDIT_BANK_POS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankPosSec.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankPosSec -> BT_AUDIT_BANK_POS_SEC
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankTelPack.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankTelPack -> BT_AUDIT_BANK_TEL_PACK
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankTotal.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankTotal -> BT_AUDIT_BANK_TOTAL
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankTs.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankTs -> BT_AUDIT_BANK_TS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankTsDifinfo.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankTsDifinfo -> BT_AUDIT_BANK_TS_DIFINFO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankTsMoney.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankTsMoney -> BT_AUDIT_BANKTSMONEY
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankTsTotle.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankTsTotle -> BT_AUDIT_BANK_TS_TOTEL
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBankZZPos.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBankZZPos -> BT_AUDIT_BANK_ZZ_POS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBindProcAndDiff.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBindProcAndDiff -> BT_AUDIT_BIND_PROCANDDIFF
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossBankDs.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossBankDs -> BT_AUDIT_BOSS_BANK_DS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossBankDsSum.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossBankDsSum -> BT_AUDIT_BOSS_BANK_DS_SUM
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossBankTs.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossBankTs -> BT_AUDIT_BOSS_BANK_TS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossdataHallDiff.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossdataHallDiff -> BT_AUDIT_BOSSDATA_HALL_DIFF
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossdataHallDiffAppr.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossdataHallDiffAppr -> BT_AUDIT_BOSSDATA_HALL_DIFF_APPR
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossNet.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossNet -> BT_AUDIT_BOSS_NET
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossPos.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossPos -> BT_AUDIT_BOSS_POS
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditBossPosSec.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditBossPosSec -> BT_AUDIT_BOSS_POS_SEC
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCardType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCardType -> BT_AUDIT_CARD_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditChargeType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditChargeType -> BT_AUDIT_TRUN_IN_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCheck.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCheck -> BT_AUDIT_CHECK
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCheckDtl.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCheckDtl -> BT_AUDIT_CHECK_DTL
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCityCreditData.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCityCreditData -> BT_AUDIT_CITY_CREDIT_DATA
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyCreditData.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyCreditData -> BT_AUDIT_COUNTY_CREDIT_DATA
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyData.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyData -> BT_AUDIT_COUNTY_DATA
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyDbyDiff.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyDbyDiff -> BT_AUDIT_COUNTY_DBY_DIFF
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyDiff.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyDiff -> BT_AUDIT_COUNTY_DIFF
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyEntityOutInConfig.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyEntityOutInConfig -> BT_AUDIT_COUNTY_ENTITY_OUT_IN_CONFIG
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyOddNumber.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyOddNumber -> BT_AUDIT_COUNTY_ODD_NUMBER
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditCountyStockClean.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditCountyStockClean -> BT_AUDIT_COUNTY_STOCK_CLEAN
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDaillyData.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDaillyData -> BT_AUDIT_DAILLY_DATA
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDataCheckList.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDataCheckList -> BT_AUDIT_DATA_CHECK_LIST
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDataList.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDataList -> BT_AUDIT_DATA_LIST
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDiffDbySummary.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDiffDbySummary -> BT_AUDIT_COUNTY_DBY_DIFF_SUMMARY
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDifferencesType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDifferencesType -> BT_AUDIT_HALL_DIFF_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDiffSummary.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDiffSummary -> BT_AUDIT_DIFF_SUMMARY
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDsBankType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDsBankType -> BT_AUDIT_DS_BANK_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditDxInfoJoin.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditDxInfoJoin -> BT_AUDIT_DX_INFO_JOIN
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEmployee.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEmployee -> BT_AUDIT_EMPLOYEE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEmpMoneyDifference.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEmpMoneyDifference -> BT_AUDIT_EMP_MONEY_DIFFERENCE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityBadCardInfo.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityBadCardInfo -> BT_AUDIT_ENTITY_BADCARD_INFO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityCountyConnect.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityCountyConnect -> BT_AUDIT_ENTITY_COUNTY_CONNECT
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityCountyIn.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityCountyIn -> BT_AUDIT_ENTITY_COUNTY_IN
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityCountyStock.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityCountyStock -> BT_AUDIT_ENTITY_COUNTY_STOCK
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityCountyStockQuery.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityCountyStockQuery -> BT_AUDIT_ENTITY_COUNTY_STOCK_QUERY
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityDiffApprove.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityDiffApprove -> BT_AUDIT_ENTITY_DIFF_APPROVE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityDifference.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityDifference -> BT_AUDIT_ENTITY_DIFFERENCE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityEmpInfo.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityEmpInfo -> BT_AUDIT_ENTITY_EMP_INFO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityEmpUpdate.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityEmpUpdate -> BT_AUDIT_ENTITY_EMP_UPDATE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityHallConnect.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityHallConnect -> BT_AUDIT_ENTITY_HALL_CONNECT
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityHallInfo.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityHallInfo -> BT_AUDIT_ENTITY_HALL_INFO
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityHallStock.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityHallStock -> BT_AUDIT_ENTITY_HALL_STOCK
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityList.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityList -> BT_AUDIT_ENTITY_LIST
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityPrice.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityPrice -> BT_AUDIT_ENTITY_PRICE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityPriceConfig.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityPriceConfig -> BT_AUDIT_ENTITY_PRICE_CONFIG
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityRule.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityRule -> BT_AUDIT_ENTITY_RULE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityRuleConn.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityRuleConn -> BT_AUDIT_ENTITY_RULE_CONN
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditEntityType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditEntityType -> BT_AUDIT_ENTITY_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditFileImportCount.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditFileImportCount -> BT_AUDIT_FILE_IMPORT_COUNT
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditFlagDetail.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditFlagDetail -> BT_AUDIT_FLAG_DETAIL
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditFlagHall.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditFlagHall -> BT_AUDIT_FLAG_HALL
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditFtp.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditFtp -> BT_AUDIT_FTP
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallDiff.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallDiff -> BT_AUDIT_HALL_DIFF
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallDiffAppr.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallDiffAppr -> BT_AUDIT_HALL_DIFF_APPR
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallDiffAssowith.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallDiffAssowith -> BT_AUDIT_HALL_DIFF_ASSOWITH
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallDiffDailywith.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallDiffDailywith -> BT_AUDIT_HALL_DIFF_DAILYWITH
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallDiffLog.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallDiffLog -> BT_AUDIT_Hall_DIFF_LOG
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallDiffType.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallDiffType -> BT_AUDIT_HALL_DIFF_TYPE
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallEendMoney.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallEndMoney -> BT_AUDIT_HALL_ENDMONEY
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallGather.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallGather -> BT_AUDIT_HALL_GATHER
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHallTurnIn.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHallTurnIn -> BT_AUDIT_HALL_TURN_IN
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHisCheck.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHisCheck -> BT_AUDIT_HIS_CHECK
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHisCheckDtl.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHisCheckDtl -> BT_AUDIT_HIS_CHECK_DTL
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditHoliday.hbm.xml
+2018-07-03 10:05:46 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditHoliday -> bt_audit_holiday
+2018-07-03 10:05:46 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditInternetPay.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditInternetPay -> BT_AUDIT_INTERNET_PAY
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditItem.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditItem -> BT_AUDIT_ITEM
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditLog.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditLog -> BT_AUDIT_Log
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditModifyDailyData.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditModifyDailyData -> BT_AUDIT_MODIFY_DAILY_DATA
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditMoneyType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditMoneyType -> bt_audit_money_type
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditNoteDisp.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditNoteDisp -> BT_AUDIT_NOTE_DISP
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditNoteType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditNoteType -> BT_AUDIT_NOTE_TYPE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditOfficeInfo.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditOfficeInfo -> BT_AUDIT_OFFICE_INFO
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditOfficeMoneySplit.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditOfficeMoneySplit -> BT_AUDIT_OFFICE_MONEY_SPLIT
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditOfficePos.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditOfficePos -> BT_AUDIT_OFFICE_POS
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditOfficeRule.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditOfficeRule -> BT_AUDIT_OFFICE_RULE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditOfficeType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditOfficeType -> BT_AUDIT_OFFICE_TYPE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditReportedData.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditReportedData -> BT_AUDIT_REPORTED_DATA
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditReportedDataLog.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditReportedDataLog -> BT_AUDIT_REPORTED_DATA_LOG
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditReportProvince.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditReportProvince -> BT_AUDIT_REPORT_PROVINCE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditRule.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditRule -> BT_AUDIT_RULE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditTelNotecaseBank.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditTelNotecaseBank -> BT_AUDIT_TEL_NOTECASE_BANK
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditTelNotecaseBoss.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditTelNotecaseBoss -> BT_AUDIT_TEL_NOTECASE_BOSS
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditTradeType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditTradeType -> BT_AUDIT_TRADE_TYPE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditTrunInType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditTrunInType -> BT_AUDIT_TRUN_IN_TYPE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditUpdatePrintInfo.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditUpdatePrintInfo -> BT_AUDIT_UPDATE_PRINT_INFO
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditUserOffice.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditUserOffice -> BT_AUDIT_USER_OFFICE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditWGLog.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditWGLog -> BT_AUDIT_WG_LOG
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditWiteoffDate.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditWiteoffDate -> bt_audit_writeoff_data
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditYDKOfficeInfo.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditYDKOfficeInfo -> BT_AUDIT_YDK_OFFICE_INFO
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtAuditZbDataList.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtAuditZbDataList -> BT_AUDIT_ZBDATA_LIST
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBank.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBank -> BT_BANK
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBankAcc.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBankAcc -> BT_BANK_ACC
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBankAccRelation.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBankAccRelation -> BT_BANK_ACC_RELATION
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBankType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBankType -> BT_BANK_TYPE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBusinessIncomeData.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBusinessIncomeData -> BT_BUSINESS_INCOME_DATA
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBusinessIncomeType.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBusinessIncomeType -> BT_BUSINESS_INCOME_TYPE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtBusinessTypeCity.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtBusinessTypeCity -> BT_BUSINESS_TYPE_CITY
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtCorp.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtCorp -> BT_CORP
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtCountyEntityBackMoney.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtCountyEntityBackMoney -> BT_COUNTY_ENTITY_BACK_MONEY
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtCurrency.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtCurrency -> BT_CURRENCY
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtHallAudit.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtHallAudit -> BT_AUDIT_DATA_LIST
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\BtUser.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.BtUser -> BT_USER
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\ErpBankImportData.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.ErpBankImportData -> ERP_BANK_IMPORT_DATA
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\ErpBossImportData.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.ErpBossImportData -> ERP_BOSS_IMPORT_DATA
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\ErpCityDiff.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.ErpCityDiff -> ERP_CITY_DIFF
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\ErpCityDiffAppr.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.ErpCityDiffAppr -> ERP_CITY_DIFF_APPR
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\ErpCitySettleMentWay.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.ErpCitySettleMentWay -> ERP_CITY_SETTLEMENT_WAY
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankEra.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankEra -> V_CITY_AUDIT_BANKERA
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankEraBankNot.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankEraBankNot -> V_CITY_AUDIT_BANKERA_BANK_NOT
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankEraBossNot.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankEraBossNot -> V_CITY_AUDIT_BANKERA_BOSS_NOT
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankEraNot.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankEraNot -> V_CITY_AUDIT_BANKERA_NOT
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankTBankNo.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankTBankNo -> V_CITY_AUDIT_BANKT_BANK_NOT
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankTBossNot.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankTBossNot -> V_CITY_AUDIT_BANKT_BOSS_NOT
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBanktDifference.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBanktDifference -> V_CITY_AUDIT_BANKT_DIFFERENCE
+2018-07-03 10:05:47 [org.hibernate.cfg.Configuration]-[INFO] Reading mappings from file: E:\workspace\SXysjh19\WebContent\WEB-INF\classes\com\bytter\audit\persistence\maps\VCityAuditBankTMatch.hbm.xml
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping class: com.bytter.audit.persistence.vo.VCityAuditBankTMatch -> V_CITY_AUDIT_BANKT_MATCH
+2018-07-03 10:05:47 [org.springframework.orm.hibernate3.LocalSessionFactoryBean]-[INFO] Building new Hibernate SessionFactory
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BisAccType.btBankAccs -> BT_BANK_ACC
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtArea.btAuditBossPosesForAreaCode -> BT_AUDIT_BOSS_POS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtArea.btCorps -> BT_CORP
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtArea.btAuditBankDses -> BT_AUDIT_BANK_DS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtArea.btAuditEntityLists -> BT_AUDIT_ENTITY_LIST
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditCardType.btAuditEntityLists -> BT_AUDIT_ENTITY_LIST
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditChargeType.btAuditBossBankDses -> BT_AUDIT_BOSS_BANK_DS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditChargeType.btAuditBankPoses -> BT_AUDIT_BANK_POS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditChargeType.btAuditBossPoses -> BT_AUDIT_BOSS_POS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditChargeType.btAuditBankDses -> BT_AUDIT_BANK_DS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditChargeType.btAuditEntityLists -> BT_AUDIT_ENTITY_LIST
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditCheck.btAuditCheckDtls -> BT_AUDIT_CHECK_DTL
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditFlagDetail.btAuditFlagHalls -> BT_AUDIT_FLAG_HALL
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditOfficeInfo.btAuditOfficePoses -> BT_AUDIT_OFFICE_POS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditOfficeInfo.btAuditEmployees -> BT_AUDIT_EMPLOYEE
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditOfficeInfo.btAuditDataList -> BT_AUDIT_DATA_LIST
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditOfficeInfo.btAuditHallGather -> BT_AUDIT_HALL_GATHER
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditOfficeInfo.btAuditHallDiff -> BT_AUDIT_HALL_DIFF
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtAuditTradeType.btAuditBankDses -> BT_AUDIT_BANK_DS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBank.btAuditBankDses -> BT_AUDIT_BANK_DS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBank.btAuditBossBankDses -> BT_AUDIT_BOSS_BANK_DS
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBank.btBankAccs -> BT_BANK_ACC
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBankAcc.bisAccHisDtls -> BIS_ACC_HIS_DTL
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBankAcc.btBankAccRelationsForBtBankAcc -> BT_BANK_ACC_RELATION
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBankAcc.btBankAccRelationsForBankAcc -> BT_BANK_ACC_RELATION
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBankType.btBanks -> BT_BANK
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBankType.bisAccHisDtls -> BIS_ACC_HIS_DTL
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtBankType.btBankAccs -> BT_BANK_ACC
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtCorp.btAuditOfficeInfos -> BT_AUDIT_OFFICE_INFO
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtCorp.btAuditEmployees -> BT_AUDIT_EMPLOYEE
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtCurrency.btBankAccs -> BT_BANK_ACC
+2018-07-03 10:05:47 [org.hibernate.cfg.HbmBinder]-[INFO] Mapping collection: com.bytter.audit.persistence.vo.BtUser.btAuditUserOffices -> BT_AUDIT_USER_OFFICE
+2018-07-03 10:05:47 [org.hibernate.connection.ConnectionProviderFactory]-[INFO] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@1e4ad14c)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 300
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] RDBMS: DB2/NT, version: SQL09070
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] JDBC driver: IBM DB2 JDBC Universal Driver Architecture, version: 3.50.152
+2018-07-03 10:05:48 [org.hibernate.dialect.Dialect]-[INFO] Using dialect: com.bettersoft.util.MyDB2Dialect
+2018-07-03 10:05:48 [org.hibernate.transaction.TransactionFactoryFactory]-[INFO] Using default transaction strategy (direct JDBC transactions)
+2018-07-03 10:05:48 [org.hibernate.transaction.TransactionManagerLookupFactory]-[INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Automatic flush during beforeCompletion(): disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Automatic session close at end of transaction: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Scrollable result sets: enabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] JDBC3 getGeneratedKeys(): enabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Connection release mode: auto
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Maximum outer join fetch depth: 3
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Default batch fetch size: 1
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Generate SQL with comments: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Order SQL updates by primary key: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018-07-03 10:05:48 [org.hibernate.hql.ast.ASTQueryTranslatorFactory]-[INFO] Using ASTQueryTranslatorFactory
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Query language substitutions: {}
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Second-level cache: enabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Query cache: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Cache provider: org.hibernate.cache.EhCacheProvider
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Optimize cache for minimal puts: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Structured second-level cache entries: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Echoing all SQL to stdout
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Statistics: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Deleted entity synthetic identifier rollback: disabled
+2018-07-03 10:05:48 [org.hibernate.cfg.SettingsFactory]-[INFO] Default entity-mode: pojo
+2018-07-03 10:05:48 [org.hibernate.impl.SessionFactoryImpl]-[INFO] building session factory
+2018-07-03 10:05:48 [net.sf.ehcache.config.ConfigurationFactory]-[WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: file:/E:/tomcat/Tomcat 5.0-青海/work/Catalina/localhost/sxys/loader/ehcache-failsafe.xml
+2018-07-03 10:05:50 [org.hibernate.impl.SessionFactoryObjectFactory]-[INFO] Not binding factory to JNDI, no JNDI name configured
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'attributeService'
+2018-07-03 10:05:50 [org.springframework.aop.framework.DefaultAopProxyFactory]-[INFO] CGLIB2 available: proxyTargetClass feature enabled
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'transactionManager'
+2018-07-03 10:05:50 [org.springframework.orm.hibernate3.HibernateTransactionManager]-[INFO] Using DataSource [org.apache.commons.dbcp.BasicDataSource@7d399ae5] of Hibernate SessionFactory for HibernateTransactionManager
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'HolidayDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'HolidayService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CountyAuditDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CountyAuditService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DBWAuditDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DBWAuditService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'ZBOfficeAuditDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'ZBOfficeAuditService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DBYAuditDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DBYAuditService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'BankAffirmDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'BankAffirmService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CountyDiffDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CountyDiffService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CountyAuditReportDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CountyAuditReportService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DiffApproveDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DiffApproveService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CityAuditDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CityAuditService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'cityAuditReportedDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'cityAuditReportedService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankAccDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankAccService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'iadminDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'adminService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankHebaoDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankHebaoSerivce'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'AuditOfficeInfoService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'baseDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'AuditOfficePosService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'auditRuleConfigDao_oracle'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'AuditEmployeeService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'auditRuleConfigService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'auditBtCorpOrOfficeInfoAll_Oracle'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'auditBtCorpOrOfficeInfoAllService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'differencesDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DifferencesService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'smsNotificationDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'SmsNotificationService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'checkService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'generalDAO'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'isBtAuditFtpDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'BtAuditFtpService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'dumblyThread'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'btAuditReviewDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'BtAuditReviewService'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'monthDataApproveDao'
+2018-07-03 10:05:50 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'monthDataApproveService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'monthAuditDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'monthAuditService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallDailyDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallDailyService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankDaiService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bulletinDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bulletinService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankCollectionDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'CityAuditCollectionService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'handinDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'handinService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'goodsDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'goodsService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'empGoodsDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'empGoodsService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallConnectGoodsDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallConnectGoodsService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'goodsRuleDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'goodsRuleService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityAuditDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityAuditService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityDifferenceDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityDifferenceService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'countyAuditInKandDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'countyAuditInKandService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityRefundDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityRefundService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'entityMaintenanceDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'EntityMaintenanceService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'dayReportDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'dayReportService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallauditorListDAO'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'areaTailDAO'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'cityAuditorDAO'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallCoinDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallauditDAO'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankdsRecvDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'auditCompDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallAuditCompService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bankdsRecvService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallauditService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'btAuditftpservice'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallCoinService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'cityAuditorService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'areaTailService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'hallAuditorListService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'itemDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'itemService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'fundTailDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'fundTailService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityChannelDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityChannelService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityInternetDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityInternetService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'btAuditBankAccInOutCheckDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityTelNoteCaseDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityTelNoteCaseService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityDifferenceDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'electricityDifferenceService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'btAuditBankAccInOutCheckService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'btAuditAllDiffProcessInfoDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'btAuditAllDiffProcessInfoService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'proConfigDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'proConfigService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'waitManageDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'waitManageService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'erpImportDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'erpImportService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'quartzTaskHandle'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'sampleJobDetail'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'sampleCronTrigger'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'quartzScheduler'
+2018-07-03 10:05:51 [org.quartz.simpl.SimpleThreadPool]-[INFO] Job execution threads will use class loader of thread: main
+2018-07-03 10:05:51 [org.quartz.core.QuartzScheduler]-[INFO] Quartz Scheduler v.1.6.0 created.
+2018-07-03 10:05:51 [org.quartz.simpl.RAMJobStore]-[INFO] RAMJobStore initialized.
+2018-07-03 10:05:51 [org.quartz.impl.StdSchedulerFactory]-[INFO] Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-07-03 10:05:51 [org.quartz.impl.StdSchedulerFactory]-[INFO] Quartz scheduler version: 1.6.0
+2018-07-03 10:05:51 [org.springframework.scheduling.quartz.SchedulerFactoryBean]-[INFO] Starting Quartz scheduler now
+2018-07-03 10:05:51 [org.quartz.core.QuartzScheduler]-[INFO] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'baseDataDao'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'baseDataService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'appResourceService'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'jdbcTemplate'
+2018-07-03 10:05:51 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'bizLogService'
+2018-07-03 10:05:51 [org.springframework.web.context.ContextLoader]-[INFO] Using context class [org.springframework.web.context.support.XmlWebApplicationContext] for root WebApplicationContext
+2018-07-03 10:05:51 [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 8797 ms
+2018-07-03 10:05:51 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2018-07-03 10:05:51 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2018-07-03 10:05:54 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='resources.warn', returnNull=true
+2018-07-03 10:05:54 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='resources.application', returnNull=true
+2018-07-03 10:05:54 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='resources.form', returnNull=true
+2018-07-03 10:05:54 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='resources.error', returnNull=true
+2018-07-03 10:05:54 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='resources.image', returnNull=true
+2018-07-03 10:05:54 [org.apache.struts.validator.ValidatorPlugIn]-[INFO] Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2018-07-03 10:05:54 [org.apache.struts.validator.ValidatorPlugIn]-[ERROR] Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2018-07-03 10:05:54 [org.apache.struts.validator.ValidatorPlugIn]-[INFO] Loading validation rules file from '/WEB-INF/validation.xml'
+2018-07-03 10:05:54 [org.apache.struts.validator.ValidatorPlugIn]-[ERROR] Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2018-07-03 10:05:54 [com.bettersoft.util.Bootstrap]-[INFO] md5Flag===0
+2018-07-03 10:05:54 [com.bettersoft.util.Bootstrap]-[INFO] webConFlag===null
+2018-07-03 10:05:54 [com.bettersoft.util.Bootstrap]-[INFO] pubPrivateFlag===0
+2018-07-03 10:05:54 [com.bettersoft.util.Bootstrap]-[INFO] ========= WebApp Starting =========
+Report System initing......
+Report System initialized......
+2018-07-03 10:05:54 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /balancer from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\balancer
+2018-07-03 10:05:54 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /balancer from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\balancer
+2018-07-03 10:05:55 [tomcat.localhost./balancer.Context]-[ERROR] Error filterStart
+2018-07-03 10:05:55 [tomcat.localhost./balancer.Context]-[ERROR] Context startup failed due to previous errors
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /probe from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\probe
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /probe from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\probe
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path  from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\ROOT
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path  from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\ROOT
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /site from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\site
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /site from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\site
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /tomcat-docs from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\tomcat-docs
+2018-07-03 10:05:55 [org.apache.catalina.core.StandardHostDeployer]-[INFO] Installing web application at context path /tomcat-docs from URL file:E:\tomcat\Tomcat 5.0-青海\webapps\tomcat-docs
+2018-07-03 10:05:55 [org.apache.coyote.http11.Http11Protocol]-[INFO] Starting Coyote HTTP/1.1 on port 9090
+2018-07-03 10:05:55 [org.apache.jk.common.ChannelSocket]-[INFO] JK2: ajp13 listening on /0.0.0.0:9009
+2018-07-03 10:05:55 [org.apache.jk.server.JkMain]-[INFO] Jk running ID=0 time=24/7  config=E:\tomcat\Tomcat 5.0-青海\conf\jk2.properties
+2018-07-03 10:05:55 [org.apache.catalina.startup.Catalina]-[INFO] Server startup in 14967 ms
+2018-07-03 10:05:55 [org.apache.catalina.startup.Catalina]-[INFO] Server startup in 14967 ms
+2018-07-03 10:06:00 [com.bettersoft.admin.LoginAction]-[INFO] loginParam=1,稽核系统直接登录！
+2018-07-03 10:06:00 [com.bettersoft.admin.LoginAction]-[INFO] 获得登陆key的用户备用主题通用名====
+*******************DB2/NT********************
+2018-07-03 10:06:01 [com.bettersoft.admin.LoginAction]-[INFO] 返回结果：1
+2018-07-03 10:06:01 [com.bettersoft.admin.LoginAction]-[INFO] renhaixia1 登陆系统成功！
+2018-07-03 10:06:02 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:02 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.util.Logger]-[INFO] Logging using commons-logging.
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.DWRServlet]-[INFO] retrieved system configuration file: java.io.ByteArrayInputStream@28a38b58
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.impl.DefaultConfiguration]-[INFO] Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.impl.DefaultConfiguration]-[INFO] Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.convert.HibernateBeanConverter]-[INFO] Found Hibernate3 class: org.hibernate.Hibernate
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.util.LogErrorHandler]-[ERROR] Line=120 The content of element type "param" must match "null".
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.impl.DefaultConverterManager]-[WARN] Clash of converters for com.bettersoft.netbank.form.InfoForm. Using uk.ltd.getahead.dwr.convert.BeanConverter in place of uk.ltd.getahead.dwr.convert.BeanConverter
+2018-07-03 10:06:02 [uk.ltd.getahead.dwr.impl.DefaultConverterManager]-[WARN] Clash of converters for com.bettersoft.netbank.form.BatRacUpForm. Using uk.ltd.getahead.dwr.convert.BeanConverter in place of uk.ltd.getahead.dwr.convert.BeanConverter
+2018-07-03 10:06:03 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.actions.LocalStrings', returnNull=true
+2018-07-03 10:06:04 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'DB2'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'HSQL'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'MS-SQL'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'MySQL'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'Oracle'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'Informix'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'PostgreSQL'
+2018-07-03 10:06:04 [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[INFO] Creating shared instance of singleton bean 'Sybase'
+2018-07-03 10:06:04 [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, HSQL, MS-SQL, MySQL, Oracle, Informix, PostgreSQL, Sybase]
+Hibernate: select a.ROLE_LEVEL from BT_BS_ROLE a,BT_BS_USER_ROLE b where a.ROLE_CODE=b.ROLE_CODE and b.USER_CODE='renhaixia1' 
+Hibernate: select uc.id, uc.USER_CODE, uc.USER_NAME, uc.CORP_ID, uc.CORP_CODE, uc.CORP_NAME, uc.IS_DEFAULT from BT_User_To_Corp uc where uc.USER_CODE = 'renhaixia1'
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:07 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:17 [com.bettersoft.admin.LoginAction]-[INFO] loginParam=1,稽核系统直接登录！
+2018-07-03 10:06:17 [com.bettersoft.admin.LoginAction]-[INFO] 获得登陆key的用户备用主题通用名====
+2018-07-03 10:06:17 [com.bettersoft.admin.LoginAction]-[INFO] 返回结果：1
+2018-07-03 10:06:17 [com.bettersoft.admin.LoginAction]-[INFO] busadmin 登陆系统成功！
+2018-07-03 10:06:17 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:17 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:17 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:17 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+Hibernate: select uc.id, uc.USER_CODE, uc.USER_NAME, uc.CORP_ID, uc.CORP_CODE, uc.CORP_NAME, uc.IS_DEFAULT from BT_User_To_Corp uc where uc.USER_CODE = 'busadmin'
+Hibernate: select a.ROLE_LEVEL from BT_BS_ROLE a,BT_BS_USER_ROLE b where a.ROLE_CODE=b.ROLE_CODE and b.USER_CODE='busadmin' 
+2018-07-03 10:06:19 [com.bettersoft.admin.LoginAction]-[INFO] loginParam=1,稽核系统直接登录！
+2018-07-03 10:06:19 [com.bettersoft.admin.LoginAction]-[INFO] 获得登陆key的用户备用主题通用名====
+2018-07-03 10:06:19 [com.bettersoft.admin.LoginAction]-[INFO] 返回结果：1
+2018-07-03 10:06:20 [com.bettersoft.admin.LoginAction]-[INFO] busadmin 登陆系统成功！
+2018-07-03 10:06:20 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:20 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:20 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+2018-07-03 10:06:20 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+Hibernate: select uc.id, uc.USER_CODE, uc.USER_NAME, uc.CORP_ID, uc.CORP_CODE, uc.CORP_NAME, uc.IS_DEFAULT from BT_User_To_Corp uc where uc.USER_CODE = 'busadmin'
+Hibernate: select a.ROLE_LEVEL from BT_BS_ROLE a,BT_BS_USER_ROLE b where a.ROLE_CODE=b.ROLE_CODE and b.USER_CODE='busadmin' 
+2018-07-03 10:06:28 [com.bettersoft.admin.LoginAction]-[INFO] loginParam=1,稽核系统直接登录！
+2018-07-03 10:06:28 [com.bettersoft.admin.LoginAction]-[INFO] 获得登陆key的用户备用主题通用名====
+2018-07-03 10:06:28 [com.bettersoft.admin.LoginAction]-[INFO] 返回结果：1
+2018-07-03 10:06:28 [com.bettersoft.admin.LoginAction]-[INFO] admin 登陆系统成功！
+2018-07-03 10:06:28 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+Hibernate: select uc.id, uc.USER_CODE, uc.USER_NAME, uc.CORP_ID, uc.CORP_CODE, uc.CORP_NAME, uc.IS_DEFAULT from BT_User_To_Corp uc where uc.USER_CODE = 'admin'
+Hibernate: select a.ROLE_LEVEL from BT_BS_ROLE a,BT_BS_USER_ROLE b where a.ROLE_CODE=b.ROLE_CODE and b.USER_CODE='admin' 
+2018-07-03 10:06:31 [com.bettersoft.admin.LoginAction]-[INFO] loginParam=1,稽核系统直接登录！
+2018-07-03 10:06:31 [com.bettersoft.admin.LoginAction]-[INFO] 获得登陆key的用户备用主题通用名====
+2018-07-03 10:06:31 [com.bettersoft.admin.LoginAction]-[INFO] 返回结果：1
+2018-07-03 10:06:31 [com.bettersoft.admin.LoginAction]-[INFO] admin 登陆系统成功！
+2018-07-03 10:06:31 [com.bettersoft.admin.SysResManager]-[INFO] 获得用户的系统菜单sql==select distinct a.res_code,a.res_name,a.father_code,a.res_url,a.link_target  ,a.rmk,a.res_order from bt_sys_res a,bt_bs_user_role ur,bt_bs_role_sys_res rsr where a.sys_code =? and a.status='0' and  ur.user_code=? and ur.role_code=rsr.role_code and a.res_code=rsr.res_code order by a.father_code,a.res_order
+Hibernate: select uc.id, uc.USER_CODE, uc.USER_NAME, uc.CORP_ID, uc.CORP_CODE, uc.CORP_NAME, uc.IS_DEFAULT from BT_User_To_Corp uc where uc.USER_CODE = 'admin'
+Hibernate: select a.ROLE_LEVEL from BT_BS_ROLE a,BT_BS_USER_ROLE b where a.ROLE_CODE=b.ROLE_CODE and b.USER_CODE='admin' 
+2018-07-03 10:06:33 [com.bettersoft.admin.leftAction]-[INFO] sname=====???????í
+2018-07-03 10:06:33 [com.bettersoft.admin.leftAction]-[INFO] names=====???????í
+2018-07-03 10:06:35 [com.bettersoft.admin.leftAction]-[INFO] sname=====??×÷?±???í
+2018-07-03 10:06:35 [com.bettersoft.admin.leftAction]-[INFO] names=====??×÷?±???í
+2018-07-03 10:06:36 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] 打印SQL：SELECT COUNT(*) FROM (select user_code,user_name,corp_code,admin_sign,email,duty,office_tel,mobile,valid_sign,start_date,stop_date,grantor,grant_time,center_id,corp_id,user_cadn,login_type,err_date from bt_user a where valid_sign='1'  order by corp_code,user_code) as a
+2018-07-03 10:06:36 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] 1   PageSize:10
+2018-07-03 10:06:36 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] pageSql=========================SELECT * FROM (select * from(SELECT ROW_NUMBER() over() as R,t1.* From (select user_code,user_name,corp_code,admin_sign,email,duty,office_tel,mobile,valid_sign,start_date,stop_date,grantor,grant_time,center_id,corp_id,user_cadn,login_type,err_date from bt_user a where valid_sign='1'  order by corp_code,user_code) t1) as t_temp WHERE R < 11 Order by R desc) t2 Where t2.R >= 1
+2018-07-03 10:06:36 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.logic.LocalStrings', returnNull=true
+2018-07-03 10:06:50 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:51 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:06:58 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] 打印SQL：SELECT COUNT(*) FROM (select user_code,user_name,corp_code,admin_sign,email,duty,office_tel,mobile,valid_sign,start_date,stop_date,grantor,grant_time,center_id,corp_id,user_cadn,login_type,err_date from bt_user a where valid_sign='1'  order by corp_code,user_code) as a
+2018-07-03 10:06:58 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] 1   PageSize:10
+2018-07-03 10:06:58 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] pageSql=========================SELECT * FROM (select * from(SELECT ROW_NUMBER() over() as R,t1.* From (select user_code,user_name,corp_code,admin_sign,email,duty,office_tel,mobile,valid_sign,start_date,stop_date,grantor,grant_time,center_id,corp_id,user_cadn,login_type,err_date from bt_user a where valid_sign='1'  order by corp_code,user_code) t1) as t_temp WHERE R < 11 Order by R desc) t2 Where t2.R >= 1
+2018-07-03 10:07:04 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] 打印SQL：SELECT COUNT(*) FROM (select user_code,user_name,corp_code,admin_sign,email,duty,office_tel,mobile,valid_sign,start_date,stop_date,grantor,grant_time,center_id,corp_id,user_cadn,login_type,err_date from bt_user a where valid_sign='1'  order by corp_code,user_code) as a
+2018-07-03 10:07:04 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] 1   PageSize:10
+2018-07-03 10:07:04 [com.bettersoft.netbank.manager.MyOraclePageBean]-[INFO] pageSql=========================SELECT * FROM (select * from(SELECT ROW_NUMBER() over() as R,t1.* From (select user_code,user_name,corp_code,admin_sign,email,duty,office_tel,mobile,valid_sign,start_date,stop_date,grantor,grant_time,center_id,corp_id,user_cadn,login_type,err_date from bt_user a where valid_sign='1'  order by corp_code,user_code) t1) as t_temp WHERE R < 11 Order by R desc) t2 Where t2.R >= 1
+2018-07-03 10:07:42 [com.bettersoft.admin.BudgetWebcorpManager]-[INFO] 根据系统代码取出系统的操作代码和名称===select op_type,type_name from BT_SYS_OPERATION where sys_code=? order by type_name desc
+2018-07-03 10:07:42 [com.bettersoft.admin.BudgetWebcorpManager]-[INFO] 根据系统代码取出系统的操作代码和名称===select op_type,type_name from BT_SYS_OPERATION where sys_code=? order by type_name desc
+2018-07-03 10:07:42 [com.bettersoft.admin.BudgetWebcorpManager]-[INFO] 根据系统代码取出系统的操作代码和名称===select op_type,type_name from BT_SYS_OPERATION where sys_code=? order by type_name desc
+2018-07-03 10:08:30 [com.bettersoft.admin.leftAction]-[INFO] sname=====???????í
+2018-07-03 10:08:30 [com.bettersoft.admin.leftAction]-[INFO] names=====???????í
+2018-07-03 10:08:31 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] role_code===0
+2018-07-03 10:08:31 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] sqlWhere=== and 1=1 
+2018-07-03 10:08:31 [com.bettersoft.admin.bsrole.manager.BsRoleManager]-[INFO] 查询岗位的SQL===select * from bt_bs_role where user_code is null  and 1=1  order by role_code
+2018-07-03 10:08:31 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.logic.LocalStrings', returnNull=true
+2018-07-03 10:08:31 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.logic.LocalStrings', returnNull=true
+2018-07-03 10:08:31 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.bean.LocalStrings', returnNull=true
+2018-07-03 10:08:33 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:08:33 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+2018-07-03 10:08:35 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] role_code===0
+2018-07-03 10:08:35 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] sqlWhere=== and 1=1 
+2018-07-03 10:08:35 [com.bettersoft.admin.bsrole.manager.BsRoleManager]-[INFO] sql====select * from bt_bs_role where valid_sign='1' and user_code is null  and 1=1  order by role_code
+2018-07-03 10:08:37 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] action====0
+2018-07-03 10:08:37 [com.bettersoft.admin.bsrole.manager.PermissionManager]-[INFO] 获得用户的系统菜单名称sql===select sys_code,sys_name from bt_sys  where valid_sign='1' and first_page is not null and sys_code not in('users','adm')   order by sys_name
+2018-07-03 10:08:37 [org.apache.struts.util.PropertyMessageResources]-[INFO] Initializing, config='org.apache.struts.taglib.bean.LocalStrings', returnNull=true
+2018-07-03 10:09:15 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] role_code===0
+2018-07-03 10:09:15 [com.bettersoft.admin.bsrole.manager.BsRoleManager]-[INFO] sql====select * from bt_bs_role where valid_sign='1' and user_code is null  and approve_sign='P'  order by role_code
+2018-07-03 10:09:16 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] role_code===0
+2018-07-03 10:09:16 [com.bettersoft.admin.bsrole.action.CreateBsRoleAction]-[INFO] sqlWhere=== and 1=1 
+2018-07-03 10:09:16 [com.bettersoft.admin.bsrole.manager.BsRoleManager]-[INFO] sql====select * from bt_bs_role where valid_sign='1' and user_code is null  and 1=1  order by role_code
