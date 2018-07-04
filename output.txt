@@ -1,5 +1,5 @@
-2018-07-03 10:05:40 [org.apache.coyote.http11.Http11Protocol]-[INFO] Initializing Coyote HTTP/1.1 on port 9090
-2018-07-03 10:05:40 [org.apache.catalina.startup.Catalina]-[INFO] Initialization processed in 837 ms
+2018-07-03 10:05:40 [org.apache.coyote.http11.Http11Protocol]-[INFO] Initializing Coyote HTTP/1.1 on port 9090 
+2018-07-03 10:05:40 [org.apache.catalina.startup.Catalina]-[INFO] Initialization processed in 837 ms ∑÷÷ßmaster
 2018-07-03 10:05:40 [org.apache.catalina.startup.Catalina]-[INFO] Initialization processed in 837 ms
 2018-07-03 10:05:40 [org.apache.catalina.core.StandardService]-[INFO] Starting service Catalina
 2018-07-03 10:05:40 [org.apache.catalina.core.StandardService]-[INFO] Starting service Catalina
